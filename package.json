@@ -1,12 +1,27 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
+  "description": "Base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "v22.14.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "string",
+    "string manipulation",
+    "string utilities",
+    "cli",
+    "nodejs",
+    "javascript",
+    "command line interface"
+  ],
+  "author": "Filippo Pedullà <pedulla.filippo03@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

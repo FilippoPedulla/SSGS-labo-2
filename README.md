@@ -1,18 +1,8 @@
 # Labo-String: CLI per Utilità su Stringhe
 
-Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
-
-## Nota Importante per lo Studente - Setup Iniziale del Progetto
-
 Benvenuto/a a `labo-string`!
 
-Questo repository è un **template di partenza** per il tuo laboratorio valutato. Come avrai modo di leggere nelle istruzioni del laboratorio, una parte fondamentale del tuo lavoro iniziale (Esercizio 1) consisterà nell'analizzare attentamente la struttura e la configurazione corrente di questo progetto.
-
-**Potresti notare che alcuni aspetti della configurazione iniziale – inclusa questa stessa documentazione (`README.md`), il file `package.json` e la gestione dei file da ignorare (`.gitignore`) – sono stati volutamente lasciati incompleti o potrebbero non seguire tutte le best practice per un progetto Node.js.**
-
-Il tuo primo compito sarà proprio quello di identificare queste aree di miglioramento e apportare le necessarie correzioni e completamenti, come dettagliato nelle istruzioni del laboratorio, per portare il progetto a uno standard qualitativo superiore.
-
-Buona analisi e buon lavoro!
+Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
 
 ## Funzionalità Principali (Previste)
 
@@ -23,8 +13,14 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+Per avere l'ambiente di sviluppo corretto per questo progetto è necessario installare Node.js a questo [link](https://nodejs.org/en/download) impostando i parametri di installazione a seconda delle esigenze mantenendo npm come gestore dei pacchetti.  
+  
+Successivamente verificare la corretta installazione sia di Node.js, tramite il comando `node -v`, che di npm, tramite il comando `npm -v`.  
+Se entrambi i comandi restituiscono la versione installata dei due pacchetti allora l'ambiente di sviluppo è pronto.  
+  
+Dopodiche, per eseguire i test per l'applicazione, è necessario installare jest tramite il terminale con il comando `npm install jest` all'interno della cartella del progetto.  
+Se jest è stato intallato trammite terminale basta eseguire il nomando `npm ls jest` per verificarne la corretta installazione.  
+Per facilitare l'esecuzione dei test è possibile installare l'estensione di VS Code (sempre se si utilizza VS Code).
 
----
-
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+Per quanto riguarda l'avvio dell'applicazione bisogna eseguire il comando `node index.js` all'interno della cartella `src`
+Mentre per eseguire i test sarà necessario eseguire il comando `npm test`.
